@@ -27,4 +27,9 @@ public class MoonRotation : MonoBehaviour
     {
         rotateClockwise = !rotateClockwise;
     }
+
+    public void IncreaseSpeed(float amount)
+    {
+        rotationSpeed += amount;
+    }
 }
